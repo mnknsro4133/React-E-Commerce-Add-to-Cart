@@ -36,3 +36,83 @@
     transform: rotate(360deg);
   }
 }
+
+.card-container{
+  width: 650px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  color: #232323;
+  margin-top: 100px;
+  background-color: #f4f4f4;
+  border-radius: 6px;
+}
+
+.product-image{
+  width: 35%;
+  height: 100%;
+  float: left;
+}
+
+.product-info{
+  width: 50%;
+  height: 100%;
+  padding-left: 25px;
+  float: left;
+}
+
+.addToCard{
+  width: 140px;
+  border-radius: 6px;
+  border: none;
+  background-color: #0496BF;
+  height: 40px;
+  color: #fff;
+  font-size: 17px;
+  outline: none;
+  margin-top: -16px;
+}
+
+.addToCard:hover{
+  width: 140px;
+  border-radius: 6px;
+  border: none;
+  background-color: #19649B;
+  height: 40px;
+  cursor: pointer;
+  color: #fff;
+  font-size: 17px;
+  transition: ease .7s;
+  outline: none;
+  margin-top: -16px;
+}
+
+.basket-container{
+  width: 650px;
+  height: 40px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.basket-icon-container{
+  width: 200px;
+  padding-top: 5px;
+  height: 40px;
+  text-align: right;
+  float: right;
+}
+
+.basket-icon-container img{
+  width: 30px;
+}
+
+
+.basket-icon-container div{
+  font-size: 18px;
+  float: right;
+  padding-top: 5px;
+  margin-left: 10px;
+  color: #19649B;
+  font-weight: bold;
+}
