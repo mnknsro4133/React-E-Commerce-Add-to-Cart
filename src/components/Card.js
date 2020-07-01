@@ -12,23 +12,19 @@ export class Card extends Component {
         this.setState({
             basket: ++this.state.basket
         });
-
     };
-
     render() {
         return (
             <div>
                 <Header 
                 basket = {this.state.basket}
                 />
-
                 <div className="card-container">
                     <div className="product-image"><img src="https://productimages.hepsiburada.net/s/22/550/9957338677298.jpg" width="100%" /></div>
                     <div className="product-info">
                         <h3>Lenovo IdeaPad L340-17IRH Intel Core i7 9750H 16GB 1TB+256GB<br /> Lenovo</h3>
                         <h2>8.599,00 TL</h2>
-                        <input type="submit" className="addToCard" onClick={this.ekle.bind(this)} />
-
+                        <input type="submit" value={"Sepete Ekle"} className="addToCard" onClick={this.ekle.bind(this)} />
                     </div>
                 </div>
             </div>
