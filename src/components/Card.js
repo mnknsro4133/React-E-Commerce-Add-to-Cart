@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import PropTypes from 'prop-types';
+import swal from 'sweetalert';
 import Header from './Header';
 
 export class Card extends Component {
@@ -24,7 +24,7 @@ export class Card extends Component {
                     <div className="product-info">
                         <h3>Lenovo IdeaPad L340-17IRH Intel Core i7 9750H 16GB 1TB+256GB<br /> Lenovo</h3>
                         <h2>8.599,00 TL</h2>
-                        <input type="submit" value={"Sepete Ekle"} className="addToCard" onClick={this.ekle.bind(this)} />
+                        <input type="submit" value={"Sepete Ekle"} className="addToCard" onClick={swal("Sepete Eklendi..", " ", "success", {button: false}), this.ekle.bind(this)} />
                     </div>
                 </div>
             </div>
